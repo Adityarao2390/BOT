@@ -26,5 +26,5 @@ streamlit.header('Fruits Mart')
 streamlit.text('Apple: High')
 
 streamlit.sidebar.radio('Select one:', [1, 2])
-streamlit run BOT1.py
+#streamlit run BOT1.py
 
