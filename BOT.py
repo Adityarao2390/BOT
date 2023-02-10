@@ -31,4 +31,4 @@ from PIL import Image
 
 image = Image.open('OM.jpg')
 
-st.image(image, caption='OM SAI RAM')
+streamlit.image(image, caption='OM SAI RAM')
