@@ -25,14 +25,5 @@ streamlit.markdown('Garlic High')
 streamlit.header('Fruits Mart')
 streamlit.markdown('Apple: High')
 
-a = streamlit.sidebar.radio('Select one:', [1, 2])
-if(a=1, 
-   streamlit.header('About Us'))
-"""
-from PIL import Image
-
-image = Image.open('sunrise.jpg')
-
-st.image(image, caption='Sunrise by the mountains')
-#streamlit run BOT1.py
+streamlit.sidebar.radio('Select one:', [1, 2])
 
