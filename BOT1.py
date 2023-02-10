@@ -1,3 +1,4 @@
+pip install discord
 import discord
 #import os
 
