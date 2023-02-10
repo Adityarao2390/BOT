@@ -24,3 +24,6 @@ streamlit.text('Garlic High')
 
 streamlit.header('Fruits Mart')
 streamlit.text('Apple: High')
+
+streamlit run BOT1.py
+
