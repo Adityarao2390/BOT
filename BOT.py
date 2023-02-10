@@ -7,24 +7,32 @@ streamlit.title('Vegetable and Fruits Mart-sa')
 
 streamlit.header('Vegetable Mart')
 streamlit.markdown('Patatos: High')
-streamlit.text('Tomatos: Medium ')
-streamlit.text('Onion: Medium')
-streamlit.text('Capsicum Medium')
+streamlit.markdown('Tomatos: Medium ')
+streamlit.markdown('Onion: Medium')
+streamlit.markdown('Capsicum Medium')
 
 #streamlit.text('')
 streamlit.header('Sabji Mart')
-streamlit.text('Califlower: High')
+streamlit.markdown('Califlower: High')
 streamlit.header('Main Cource Mart')
-streamlit.text('Jackfruit: High')
-streamlit.text('Palak: Medium')
+streamlit.markdown('Jackfruit: High')
+streamlit.markdown('Palak: Medium')
 
 streamlit.header('Spices Mart')
-streamlit.text('Garlic High')
+streamlit.markdown('Garlic High')
 
 
 streamlit.header('Fruits Mart')
-streamlit.text('Apple: High')
+streamlit.markdown('Apple: High')
 
-streamlit.sidebar.radio('Select one:', [1, 2])
+a = streamlit.sidebar.radio('Select one:', [1, 2])
+if(a=1, 
+   streamlit.header('About Us'))
+"""
+from PIL import Image
+
+image = Image.open('sunrise.jpg')
+
+st.image(image, caption='Sunrise by the mountains')
 #streamlit run BOT1.py
 
