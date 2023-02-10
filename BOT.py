@@ -6,7 +6,7 @@ import requests
 streamlit.title('Vegetable and Fruits Mart-sa')
 
 streamlit.header('Vegetable Mart')
-streamlit.text('Patatos: High')
+streamlit.markdown('Patatos: High')
 streamlit.text('Tomatos: Medium ')
 streamlit.text('Onion: Medium')
 streamlit.text('Capsicum Medium')
