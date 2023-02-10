@@ -27,3 +27,8 @@ streamlit.markdown('Apple: High')
 
 streamlit.sidebar.radio('Select one:', [1, 2])
 
+from PIL import Image
+
+image = Image.open('OM.jpg')
+
+st.image(image, caption='OM SAI RAM')
